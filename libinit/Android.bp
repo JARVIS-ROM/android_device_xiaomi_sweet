@@ -15,5 +15,6 @@ cc_library_static {
     export_include_dirs: ["include"],
     include_dirs: ["system/core/init"],
     whole_static_libs: ["libbase"],
-    recovery_available: true
+    recovery_available: true,
+    ramdisk_available: true
 }

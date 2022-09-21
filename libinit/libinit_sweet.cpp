@@ -7,7 +7,8 @@
 #include <libinit_dalvik_heap.h>
 #include <libinit_variant.h>
 
-#include "vendor_init.h"
+namespace android {
+namespace init {
 
 static const variant_info_t sweetin_info = {
     .hwc_value = "INDIA",
@@ -61,3 +62,5 @@ void vendor_load_properties() {
     search_variant(variants);
     set_dalvik_heap();
 }
+} //init
+} //android
