@@ -37,7 +37,6 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libtinycompress.vendor \
     libvolumelistener
 
 PRODUCT_COPY_FILES += \
@@ -107,7 +106,6 @@ PRODUCT_PACKAGES += \
     gralloc.sm6150 \
     hwcomposer.sm6150 \
     libqdMetaData \
-    libqdMetaData.vendor \
     memtrack.sm6150 \
     vendor.display.config@2.0
 
@@ -206,8 +204,6 @@ PRODUCT_PACKAGES += \
     libOmxEvrcEnc \
     libOmxG711Enc \
     libOmxQcelp13Enc \
-    libOmxSwVdec \
-    libOmxSwVencMpeg4 \
     libOmxVdec \
     libOmxVenc \
     libmm-omxcore \
