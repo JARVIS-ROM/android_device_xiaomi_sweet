@@ -8,6 +8,9 @@
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, vendor/xiaomi/sweet-miuicamera/products/miuicamera.mk)
+
 # Product launched with 11.0
 PRODUCT_SHIPPING_API_LEVEL := 30
 
