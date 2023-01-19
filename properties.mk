@@ -211,6 +211,7 @@ ro.vendor.qti.va_aosp.support=1
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
+debug.sf.disable_backpressure=1 \
 debug.sf.enable_hwc_vds=1 \
 debug.sf.latch_unsignaled=1 \
 persist.sys.sf.color_saturation=1.0 \
@@ -233,6 +234,9 @@ vendor.display.enable_null_display=0 \
 vendor.display.enable_optimize_refresh=1 \
 vendor.display.qdcm.mode_combine=1 \
 vendor.gralloc.disable_ubwc=0
+
+PRODUCT_PRODUCT_PROPERTIES += \
+ro.sf.force_hwc_brightness=1
 
 # Incremental FS
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -364,6 +368,9 @@ persist.dbg.volte_avail_ovr=1 \
 persist.dbg.vt_avail_ovr=1 \
 persist.dbg.wfc_avail_ovr=1
 
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.vendor.qti.telephony.vt_cam_interface=2
+
 # WiFi
 PRODUCT_PROPERTY_OVERRIDES += \
 wifi.aware.interface=wifi-aware0
@@ -377,6 +384,7 @@ persist.debug.wfd.enable=1 \
 PRODUCT_PROPERTY_OVERRIDES += \
 zygote.critical_window.minute=10
 
+# Camera
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.camera.privapp.list=org.lineageos.aperture,com.android.camera \
     vendor.camera.aux.packagelist=org.lineageos.aperture,com.android.camera

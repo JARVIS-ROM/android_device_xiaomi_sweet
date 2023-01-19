@@ -35,9 +35,6 @@ TARGET_OTA_ASSERT_DEVICE := sweet,sweetin
 # Audio
 AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT := true
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
-
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
@@ -155,7 +152,7 @@ TARGET_SEPOLICY_DIR := msmsteppe
 include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
 
 # Vendor security patch level
-VENDOR_SECURITY_PATCH := 2022-07-01
+VENDOR_SECURITY_PATCH := 2022-12-01
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
@@ -189,3 +186,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
 -include vendor/xiaomi/sweet/BoardConfigVendor.mk
+
+# Inherit from proprietary files for miuicamera
+-include vendor/xiaomi/sweet-miuicamera/products/board.mk
