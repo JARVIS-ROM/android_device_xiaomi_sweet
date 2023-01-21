@@ -52,10 +52,25 @@ static const variant_info_t sweet_global_info = {
     .nfc = true,
 };
 
+static const variant_info_t sweet_eea_info = {
+    .hwc_value = "",
+    .sku_value = "",
+
+    .brand = "Redmi",
+    .device = "sweet",
+    .marketname = "Redmi Note 10 Pro",
+    .model = "M2101K6G",
+    .build_fingerprint = "Redmi/sweet_eea/sweet:12/RKQ1.210614.002/V13.0.17.0.SKFEUXM:user/release-keys",
+    .build_description = "sweet_eea-user 12 SKQ1.210908.001 V13.0.17.0.SKFEUXM release-keys",
+
+    .nfc = true,
+};
+
 static const std::vector<variant_info_t> variants = {
     sweetin_info,
     sweetinpro_info,
     sweet_global_info,
+    sweet_eea_info,
 };
 
 void vendor_load_properties() {
