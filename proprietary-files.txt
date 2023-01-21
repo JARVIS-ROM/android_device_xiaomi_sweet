@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from miui_SWEETININGlobal_V13.0.9.0.SKFINXM_58704b4d17_12.0
+# All unpinned blobs below are extracted from Redmi/sweet_eea/sweet:12/RKQ1.210614.002/V13.0.17.0.SKFEUXM:user/release-keys
 
 # ADSP
 vendor/bin/adsprpcd
@@ -229,12 +229,10 @@ vendor/lib64/camera/com.qti.tuned.sweet_ofilm_imx355_ultra.bin
 vendor/lib64/camera/com.qti.tuned.sweet_ofilm_imx471_front.bin
 vendor/lib64/camera/com.qti.tuned.sweet_ofilm_ov02b1b_depth.bin
 vendor/lib64/camera/com.qti.tuned.sweet_ofilm_ov5675_macro.bin
-vendor/lib64/camera/com.qti.tuned.sweet_ofilm_s5kgw3_wide.bin|e199e2efe02578979c129e969bde3d2739b30517
 vendor/lib64/camera/com.qti.tuned.sweet_sunny_gc02m1_depth.bin
 vendor/lib64/camera/com.qti.tuned.sweet_sunny_imx355_ultra.bin
 vendor/lib64/camera/com.qti.tuned.sweet_sunny_imx471_front.bin
 vendor/lib64/camera/com.qti.tuned.sweet_sunny_ov5675_macro.bin
-vendor/lib64/camera/com.qti.tuned.sweet_sunny_s5kgw3_wide.bin|bbb06ffce56cff50b61601b2e6f3ed9c2960663d
 vendor/lib64/camera/com.qti.tuned.sweet_sunny_s5khm2_wide.bin
 vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
@@ -1386,3 +1384,8 @@ vendor/bin/cnss-daemon
 
 # Xiaomi MAC
 vendor/bin/nv_mac
+
+# From MiUI V13.0.9.0.SKFINXM
+vendor/lib64/camera/com.qti.tuned.sweet_ofilm_s5kgw3_wide.bin|2fecdcf39059179fff3da1617e4eabdc45414fa1
+vendor/lib64/camera/com.qti.tuned.sweet_sunny_s5kgw3_wide.bin|fe2e514d7a36fb12518d49856521d0a4e0edca0f
+
